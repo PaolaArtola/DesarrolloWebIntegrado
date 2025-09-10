@@ -1,5 +1,4 @@
-package com.paolaartola.lacteos.model;
-
+package com.paolaartola.lacteos.entity;
 import jakarta.persistence.*;
 
 @Entity
@@ -31,11 +30,11 @@ public class Product {
         this.quantity = quantity;
     }
 
+    // Getters
     public long getId() {
         return id;
     }
 
-    // Getters
     public String getName() {
         return name;
     }
