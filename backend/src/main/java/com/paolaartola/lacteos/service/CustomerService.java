@@ -4,7 +4,7 @@ import com.paolaartola.lacteos.dto.CustomerDTO;
 
 import java.util.List;
 
-public interface ClienteService {
+public interface CustomerService {
     List<CustomerDTO> all();
     CustomerDTO findById(Long id);
     CustomerDTO create(CustomerDTO dto);

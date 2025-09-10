@@ -29,9 +29,9 @@ public class ProviderManager {
 
     public Optional<Provider> update(Long id, Provider data) {
         return providerRepository.findById(id).map(actual -> {
-            actual.setNombre(data.getNombre());
-            actual.setContacto(data.getContacto());
-            actual.setTelefono(data.getTelefono());
+            actual.setName(data.getName());
+            actual.setContact(data.getContact());
+            actual.setPhone(data.getPhone());
             return providerRepository.save(actual);
         });
     }

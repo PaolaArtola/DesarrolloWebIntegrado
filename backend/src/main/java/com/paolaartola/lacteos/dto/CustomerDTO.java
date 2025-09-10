@@ -26,15 +26,15 @@ public class CustomerDTO {
         this.id = id;
     }
 
-    public void setName(String nombre) {
-        this.name = nombre;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setEmail(String email) {
         this.email = email;
     }
 
-    public void setPhone(String telefono) {
-        this.phone = telefono;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 } 

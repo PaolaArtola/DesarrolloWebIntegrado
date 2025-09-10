@@ -3,7 +3,7 @@ package com.paolaartola.lacteos.service.impl;
 import com.paolaartola.lacteos.business.CustomerManager;
 import com.paolaartola.lacteos.dto.CustomerDTO;
 import com.paolaartola.lacteos.entity.Customer;
-import com.paolaartola.lacteos.service.ClienteService;
+import com.paolaartola.lacteos.service.CustomerService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
-public class CustomerServiceImpl implements ClienteService {
+public class CustomerServiceImpl implements CustomerService {
     private final CustomerManager customerManager;
 
     public CustomerServiceImpl(CustomerManager customerManager) {

@@ -1,6 +1,6 @@
 package com.paolaartola.lacteos.dto;
 
-public class ProveedorDTO {
+public class ProviderDTO {
     private Long id;
     private String name;
     private String contact;

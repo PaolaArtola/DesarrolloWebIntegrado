@@ -3,7 +3,7 @@ package com.paolaartola.lacteos.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "cliente")
+@Table(name = "customer")
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

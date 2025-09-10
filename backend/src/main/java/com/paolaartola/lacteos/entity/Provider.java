@@ -3,46 +3,46 @@ package com.paolaartola.lacteos.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "proveedor")
+@Table(name = "provider")
 public class Provider {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     @Column(nullable = false)
-    private String nombre;
+    private String name;
 
     @Column(nullable = false)
-    private String contacto;
+    private String contact;
 
     @Column(nullable = false)
-    private String telefono;
+    private String phone;
 
     public long getId() {
         return id;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getName() {
+        return name;
     }
 
-    public String getContacto() {
-        return contacto;
+    public String getContact() {
+        return contact;
     }
 
-    public String getTelefono() {
-        return telefono;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setContacto(String contacto) {
-        this.contacto = contacto;
+    public void setContact(String contact) {
+        this.contact = contact;
     }
 
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 } 
